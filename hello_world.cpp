@@ -1,5 +1,5 @@
 #include <iostream>
-//Комментарий
+//comment для конфликта PR2
 
 int main() {
 	std::string name;
