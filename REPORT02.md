@@ -57,13 +57,13 @@
 	git push origin patch1
 	```
 4. Проверьте, что ветка `patch1` доступна в удалёный репозитории.
-	```
-	pic 1
-	```
+
+	pic 1![1](https://github.com/user-attachments/assets/8fa77ce1-1ed9-49d1-8e27-0b24c77af689)
+
 5. Создайте pull-request `patch1 -> master`.
-	```
-	pic 2
-	```
+
+	pic 2![2](https://github.com/user-attachments/assets/474af57f-a363-4b83-9c02-8ee960173e98)
+
 6. В локальной копии в ветке `patch1` добавьте в исходный код комментарии.
 	`Добавил комментарий в код`
 
@@ -73,14 +73,15 @@
 	git push origin patch1
 	```
 8. Проверьте, что новые изменения есть в созданном на **шаге 5** pull-request
-	```
-	pic 3
-	pic 3.1
-	```
+
+	pic 3![3](https://github.com/user-attachments/assets/c0e6d4f7-15d0-4b44-8529-9fbbb2e65d66)
+
+	pic 3.1![3 1](https://github.com/user-attachments/assets/c21dccde-1006-499d-b6f3-72e978845cfd)
+
 9. В удалённый репозитории выполните  слияние PR `patch1 -> master` и удалите ветку `patch1` в удаленном репозитории.
-	```
-	pic 4
-	```
+
+	pic 4![4](https://github.com/user-attachments/assets/2ad1132b-b40b-49c1-bf7a-01c92d8b3e9a)
+
 10. Локально выполните **pull**.	
 	```
 	git pull origin main
@@ -90,9 +91,8 @@
 [Вывод](https://gist.github.com/ammobaggage/cbcb299939737e8b9034ef8574debdfa)
 
 12. Удалите локальную ветку `patch1`.
-	```
-	pic 5
-	```
+
+	pic 5![5](https://github.com/user-attachments/assets/43314b40-ed95-4dc1-944d-f6559d219cf6)
 
 ### Part III
 
@@ -110,14 +110,15 @@
 	```
 	git commit -am "Добавлен файл 2.2 со стилем кода Mozilla"
 	git push origin patch2
-	pic 6
+	pic 6![6](https://github.com/user-attachments/assets/95560a56-2c6b-4e0d-8129-eed9af062f0c)
+
 	```
 4. В ветке **main** в удаленном репозитории измените комментарии, например, расставьте знаки препинания, переведите комментарии на другой язык.
 	`Изменил`
 5. Убедитесь, что в pull-request появились *конфликтны*.
-	```
-	pic 7
-	```
+
+	pic 7![7](https://github.com/user-attachments/assets/fc629c51-7f68-4c92-98a5-8fe00b59f7e7)
+
 6. Для этого локально выполните **pull** + **rebase** (точную последовательность команд, следует узнать самостоятельно). **Исправьте конфликты**.
 	```
 	git fetch origin main
@@ -144,10 +145,13 @@
 	git push origin patch2 --force
 	```
 8. Убедитель, что в pull-request пропали конфликты.
-	```
-	pic 8
-	```
+
+	pic 8![8](https://github.com/user-attachments/assets/0e20f545-744b-4af2-a748-e6a65546728c)
+ 
 9. Вмержите pull-request `patch2 -> master`.
+
+   	pic 9![9](https://github.com/user-attachments/assets/da33248b-9ac2-4b43-a122-356862284df8)
+
 
 ## Links
 
