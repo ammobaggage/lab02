@@ -1,0 +1,75 @@
+commit 501c657d038523a46234469f6d6109759ed0f450 (HEAD -> patch1, origin/main)
+Author: Georgiy Karev <karev.g.a@mail.ru>
+Date:   Mon May 5 22:44:32 2025 +0300
+
+    Update README.md
+
+commit c1a10c8631a789b257f3fd123abc6ac476181524
+Merge: 02341dd 7aa0f76
+Author: Georgiy Karev <karev.g.a@mail.ru>
+Date:   Mon May 5 22:40:54 2025 +0300
+
+    Слияние веток main и patch1
+
+    Добавлен файл 1.2, без using namespace std;
+    Добавлен файл 1.2.1 с комментарием для задания.
+
+commit 7aa0f76b3e842e7397e15d5b5aa8f71fe4435f5c (origin/patch1)
+Author: ammobaggage <karev.g.a@mail.ru>
+Date:   Mon May 5 22:37:30 2025 +0300
+
+    Добавлен файл 1.2.1 с комментарием для задания
+
+commit e44e18cba9aaa7446b615e74cd47928953a285ec
+Author: ammobaggage <karev.g.a@mail.ru>
+Date:   Mon May 5 22:27:34 2025 +0300
+
+    Добавлен файл 1.2, без using namespace std;
+
+commit 02341dd2fa33bd6463b00639423d44e021182409 (main)
+:...skipping...
+commit 501c657d038523a46234469f6d6109759ed0f450 (HEAD -> patch1, origin/main)
+Author: Georgiy Karev <karev.g.a@mail.ru>
+Date:   Mon May 5 22:44:32 2025 +0300
+
+    Update README.md
+
+commit c1a10c8631a789b257f3fd123abc6ac476181524
+Merge: 02341dd 7aa0f76
+Author: Georgiy Karev <karev.g.a@mail.ru>
+Date:   Mon May 5 22:40:54 2025 +0300
+
+    Слияние веток main и patch1
+
+    Добавлен файл 1.2, без using namespace std;
+    Добавлен файл 1.2.1 с комментарием для задания.
+
+commit 7aa0f76b3e842e7397e15d5b5aa8f71fe4435f5c (origin/patch1)
+Author: ammobaggage <karev.g.a@mail.ru>
+Date:   Mon May 5 22:37:30 2025 +0300
+
+    Добавлен файл 1.2.1 с комментарием для задания
+
+commit e44e18cba9aaa7446b615e74cd47928953a285ec
+Author: ammobaggage <karev.g.a@mail.ru>
+Date:   Mon May 5 22:27:34 2025 +0300
+
+    Добавлен файл 1.2, без using namespace std;
+
+commit 02341dd2fa33bd6463b00639423d44e021182409 (main)
+Author: ammobaggage <karev.g.a@mail.ru>
+Date:   Mon May 5 22:23:23 2025 +0300
+
+    Добавлен файл 1.1 с интерактивным именем пользователя
+
+commit 916e08b48f265e8fe2c92b05eaa8b71a244e2098
+Author: ammobaggage <karev.g.a@mail.ru>
+Date:   Mon May 5 22:18:17 2025 +0300
+
+    Добавлен файл 1.0 с плохим стилем кода
+
+commit 130445dfc5b58684959ba6fda21d4a498174ba7e
+Author: ammobaggage <karev.g.a@mail.ru>
+Date:   Mon May 5 22:07:46 2025 +0300
+
+    Создан репрезиторий
