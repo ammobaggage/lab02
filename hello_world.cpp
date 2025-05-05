@@ -1,4 +1,5 @@
 #include <iostream>
+//Комментарий
 
 int main() {
 	std::string name;
