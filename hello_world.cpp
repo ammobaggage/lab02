@@ -1,7 +1,7 @@
 #include <iostream>
 
 int main() {
-
+//Добавил небольшой комментарий
 	cout << "Введите имя пользователя: ";
 	string name;
 	getline(cin, name);
